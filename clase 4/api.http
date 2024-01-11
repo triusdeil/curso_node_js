@@ -24,9 +24,13 @@ Content-Type: application/json
 }
 
 ###Actualizar una pelicula
-PATCH http://localhost:3000/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
+PATCH http://localhost:3000/movies/62f2c59b-545e-46f4-835f-6071f9fba9d6
 Content-Type: application/json
 
 {
     "year":1989
 }
+
+###eliminar una pelicula
+DELETE http://localhost:3000/movies/62f2c59b-545e-46f4-835f-6071f9fba9d6
+Content-Type: application/json
